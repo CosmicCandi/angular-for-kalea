@@ -12,4 +12,4 @@
 
 <hr>
 
-<app-editthing #thisFuckingThing [selectedThing]="selectedThing"></app-editthing>
+<app-editthing (theThingHappenedEvent)="catchTheEvent($event)" #thisFuckingThing [selectedThing]="selectedThing"></app-editthing>

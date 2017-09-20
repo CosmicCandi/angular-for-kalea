@@ -21,4 +21,8 @@ export class AppComponent {
     this.selectedThing = thing;
   }
 
+  catchTheEvent(someString){
+    this.title = someString
+  }
+
 }
